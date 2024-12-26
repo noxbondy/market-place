@@ -60,14 +60,80 @@ nav a{
 footer{
         background-color: rgb(4, 48, 84);
         padding: 10px;
-        text-align: center;
-        color: bisque;
-        height: 200px;
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        flex-wrap: wrap;
+        margin: 0 auto;        
+       
     }
-footer ul{
-    float: left;
-    padding: 10px 100px;
-    font-size: 20px;
-    font-family: cursive;
+.head1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
 }
-    
+.head1 h2{
+    margin-bottom: 2rem;
+    color: white;
+}
+.head1 a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.head1 a :hover{
+    color: rgb(240, 9, 9);
+    transition: 0.3s ease-out;
+}
+
+.head2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.head2 h2{
+    margin-bottom: 2rem;
+    color: white;
+}
+.head2 a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.head2 a :hover{
+    color: rgb(240, 9, 9);
+    transition: 0.3s ease-out;
+}
+.head3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.head3 h2{
+    margin-bottom: 2rem;
+    color: white;
+}
+.head3 a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.head3 a :hover{
+    color: rgb(240, 9, 9);
+    transition: 0.3s ease-out;
+}
+
+.footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 0,5rem;
+}   
+
+
+.footer-email h2{
+    color: white;
+    margin-bottom: 2rem;
+}
