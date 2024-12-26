@@ -1,0 +1,53 @@
+*{
+    
+    box-sizing: border-box;
+
+}
+
+
+ 
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  aside{
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 15px;
+    float: left;
+    
+  }
+  
+
+  aside p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    
+  }
+
+
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse:separate;
+  width: 800px;
+  padding-left: 0px;
+  height: 260px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
