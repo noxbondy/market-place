@@ -20,6 +20,9 @@ section{
   border-radius: 2px;
 
 }
+.product li{
+  margin-left: 20px;
+}
 
 .product img{
   max-width: 100%;
@@ -41,6 +44,9 @@ section{
   border: 1px solid #ddd;
   border-radius: 2px;
 
+}
+.product1 li{
+  margin-left: 20px;
 }
 .product1 button{
   background-color: #4CAF50;

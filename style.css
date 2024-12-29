@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    width:auto
 }
 body{
     background-color: rgb(252, 252, 252);
@@ -118,9 +119,9 @@ footer{
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
-.head3 a :hover{
+.head3 a:hover{
     color: rgb(240, 9, 9);
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-in-out;
 }
 
 .footer-email {
